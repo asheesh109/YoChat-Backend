@@ -11,7 +11,7 @@ module.exports = mongoose.model("Room", roomSchema);
 
 // === controllers/roomController.js ===
 const Room = require("../Models/Room");
-const User = require("../models/User");
+const User = require("../Models/User");
 
 exports.createRoom = async (req, res) => {
   try {
